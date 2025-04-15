@@ -1,7 +1,7 @@
 local Fluent = loadstring(game:HttpGet("https://github.com/ActualMasterOogway/Fluent-Renewed/releases/latest/download/Fluent.luau"))()
 
 local Window = Fluent:CreateWindow({
-    Title = "Muscle Legend pro alpha",
+    Title = "alpha",
     SubTitle = "by Zizu",
     TabWidth = 160,
     Size = UDim2.new(0, 500, 0, 400),
