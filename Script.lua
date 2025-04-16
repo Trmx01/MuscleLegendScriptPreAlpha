@@ -36,7 +36,7 @@ Tab:AddButton({
             Fluent:Notify({
                 Title = "Auto-Lift Attivato",
                 Content = "Sollevamento automatico in corso.",
-                Duration = 3
+                Duration = 2
             })
         else
             if autoLiftConnection then
@@ -47,7 +47,7 @@ Tab:AddButton({
             Fluent:Notify({
                 Title = "Auto-Lift Disattivato",
                 Content = "Sollevamento automatico fermato.",
-                Duration = 3
+                Duration = 2
             })
         end
     end
@@ -71,7 +71,7 @@ Tab:AddButton({
             Fluent:Notify({
                 Title = "Auto-Rebirth Attivato",
                 Content = "Rebirth automatico attivo.",
-                Duration = 3
+                Duration = 2
             })
         else
             if autoRebirthConnection then
@@ -82,7 +82,7 @@ Tab:AddButton({
             Fluent:Notify({
                 Title = "Auto-Rebirth Disattivato",
                 Content = "Rebirth automatico fermato.",
-                Duration = 3
+                Duration = 2
             })
         end
     end
@@ -117,7 +117,7 @@ Tab:AddButton({
             Fluent:Notify({
                 Title = "Auto-Chest Attivato",
                 Content = "Farm delle chest automatico attivo.",
-                Duration = 3
+                Duration = 2
             })
         else
             if autoChestConnection then
@@ -128,7 +128,7 @@ Tab:AddButton({
             Fluent:Notify({
                 Title = "Auto-Chest Disattivato",
                 Content = "Farm delle chest fermato.",
-                Duration = 3
+                Duration = 2
             })
         end
     end
